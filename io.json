@@ -1,0 +1,12 @@
+[
+    {
+        "in": "abcabcbb",
+        "out": 3,
+        "desc": "The answer is 'abc'/'bca'/'cab', with the length of 3"
+    },
+    {
+        "in": "bbbbb",
+        "out": 1,
+        "desc": "The answer is 'b', with the length of 1"
+    }
+]
