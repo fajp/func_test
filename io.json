@@ -8,5 +8,40 @@
         "in": "bbbbb",
         "out": 1,
         "desc": "The answer is 'b', with the length of 1"
+    },
+    {
+        "in": "abcd",
+        "out": 4,
+        "desc": "all chars unique"
+    },
+    {
+        "in": "",
+        "out": 0,
+        "desc": "empty string"
+    },
+    {
+        "in": "   ",
+        "out": 1,
+        "desc": "only spaces"
+    },
+    {
+        "in": "!@#$%^&*()",
+        "out": 10,
+        "desc": "special chars"
+    },
+    {
+        "in": "aabbcc123455123456789",
+        "out": 10,
+        "desc": "longest unique in the end of the string"
+    },
+    {
+        "in": "\n\t\t",
+        "out": 2,
+        "desc": "special whitespaces"
+    },
+    {
+        "in": "abbccbbabc",
+        "out": 4,
+        "desc": "longest unique in the end of the string"
     }
 ]

@@ -19,5 +19,3 @@ def unique_substr_len(string: str) -> int:
         if length > max_length: max_length = length
 
     return max_length
-
-print(unique_substr_len("""abcdef"""))
