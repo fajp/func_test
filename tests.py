@@ -2,7 +2,6 @@
 Tests function provided as var {TESTED_FUNC}
 """
 
-import sys
 import json
 import func
 
