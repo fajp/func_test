@@ -31,7 +31,7 @@
     },
     {
         "in": "aabbcc123455123456789",
-        "out": 10,
+        "out": 9,
         "desc": "longest unique in the end of the string"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "in": "abbccbbabc",
-        "out": 4,
+        "out": 3,
         "desc": "longest unique in the end of the string"
     }
 ]
